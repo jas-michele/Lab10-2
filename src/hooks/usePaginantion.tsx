@@ -21,4 +21,16 @@ export function usePagination(totalItems: number, itemsPerPage: number = 10, ini
     const canNextPage = currentPage < totalPages;
     const canPrevPage = currentPage > 1;
 
+    return {
+        currentPage,
+        totalPages,
+        startIndex,
+        endIndex,
+        itemsOnCurrentPage,
+        setPage,
+        nextPage,
+        prevPage,
+        canNextPage,
+        canPrevPage
+    }
 }
