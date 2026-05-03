@@ -1,4 +1,4 @@
-import PaginationTest from './components/PaginationTest'
+import DebounceSearchTest from './components/DebounceTest'
 import './App.css'
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-    <PaginationTest />
+    <DebounceSearchTest />
     </>
   )
 }
